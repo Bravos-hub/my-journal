@@ -14,8 +14,8 @@ export default function RootLayout() {
 
         // Load fonts or other assets here
         await Font.loadAsync({
-          'Roboto-Regular': require('./assets/fonts/Roboto-Regular.ttf'),
-          'Roboto-Bold': require('./assets/fonts/Roboto-Bold.ttf'),
+          'Roboto-Regular': require('@/assets/fonts/Roboto-Regular.ttf'),
+          'Roboto-Bold': require('@/assets/fonts/Roboto-Bold.ttf'),
         });
 
         // Simulate a delay for testing (optional)
